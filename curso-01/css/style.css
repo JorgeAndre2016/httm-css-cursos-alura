@@ -12,7 +12,6 @@ body {
 
 strong {
     color: #22d4fd;
-    padding: 10px;
 }
 
 h1 {
@@ -20,8 +19,20 @@ h1 {
 }
 
 .apresentacao {
-    margin: 10px;
+    margin: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__titulo {
+    font-size: 36px;
+}
+
+.apresentacao__paragrafo {
+    font-size: 24px;
 }
