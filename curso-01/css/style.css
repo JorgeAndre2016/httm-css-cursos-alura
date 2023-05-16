@@ -18,3 +18,8 @@ strong {
 h1 {
     font-weight: bold;
 }
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
