@@ -21,7 +21,7 @@ h1 {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,6 +29,9 @@ h1 {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__titulo {
