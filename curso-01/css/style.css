@@ -68,6 +68,10 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.apresentacao__link__btn:hover {
+    background-color: #272727;
+}
+
 .apresentacao__link__subtitulo {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
