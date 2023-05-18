@@ -46,7 +46,10 @@ h1 {
 
 .apresentacao__link {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 .apresentacao__link__btn {
