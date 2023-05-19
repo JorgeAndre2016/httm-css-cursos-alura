@@ -19,8 +19,24 @@ h1 {
     font-weight: bold;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__itens {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22d4fd;
+}
+
 .apresentacao {
-    padding: 8% 10%;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
