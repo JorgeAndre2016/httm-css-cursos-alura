@@ -50,7 +50,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
-    margin: 1em;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -70,6 +70,7 @@ body {
 .secundario {
     align-items: center;
     margin: 0 10em;
+    height: 70vh;
 }
 
 .container__secundario__imagem {
@@ -85,4 +86,13 @@ body {
 
 .container__secundario__subtitulo {
     color: var(--cinza-secundario);
+}
+
+.botao__terceario {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__secundario__descricao {
+    padding: 2em;
 }
